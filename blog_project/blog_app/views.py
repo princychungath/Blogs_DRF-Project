@@ -12,7 +12,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 
 
-#-------------------User User Authentication & email sending ------------------#
+#-------------------User Authentication & email sending ------------------#
 
 class RegisterUser(APIView):
     def post(self, request, format=None):
